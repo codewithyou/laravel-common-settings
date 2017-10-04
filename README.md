@@ -23,7 +23,7 @@ Echo :`http://www.yoursite.com/generate/key/{mykey}`
 `$app->config('setting.YOUR-KEY')`
 
 ## delete an key-value pair
-` $app->settings->get(key)
+` $app->settings->get(key)`
 
 #  TODO 
 * File driver implemention
