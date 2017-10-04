@@ -8,7 +8,7 @@ You can modify the url as flows ,fill key & value ,then generate a new key=value
 which is store is database . and can access by $app->config->get('setting.your-key)
 
 
-# APIS
+# APIS & USAGE
 ## add an key-value pair
 `$app->settings->set(key,value)`
 
@@ -19,7 +19,7 @@ which is store is database . and can access by $app->config->get('setting.your-k
 ` $app->settings->get(key)`
 
 
-#   Demo & Usage
+#   Demo
 ## set up this project 
 * config .env file set dbname db user 
 * run php artisan migrate 
@@ -37,5 +37,10 @@ Echo :`http://www.yoursite.com/generate/key/{mykey}`
 * File driver implemention
 * Broadcast when data is changed 
 * install via composer command.
+
+
+# Screenshot
+![Demo](https://github.com/codewithyou/laravel-common-settings/blob/master/ScreenShot/Snip20171004_1.png?raw=true " ")
+
 
 
