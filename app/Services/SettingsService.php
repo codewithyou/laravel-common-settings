@@ -30,7 +30,7 @@ class SettingsService extends SettingsContract
         $this->isRefresh = true;
 
         if ($value === null) {
-            $this->setting->where('name', $key)->delete();
+            $this->setting->where('key', $key)->delete();
         } else {
             $this->setting->updateOrCreate(compact('key'), compact('value'));
         }
@@ -42,7 +42,7 @@ class SettingsService extends SettingsContract
     function delete($key) {
         $this->isRefresh = true;
 
-        $this->setting->where('name', $key)->delete();
+        $this->setting->where('key', $key)->delete();
         parent::delete($key);
     }
 
