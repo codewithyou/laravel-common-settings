@@ -20,7 +20,7 @@ which is store is database . and can access by $app->config->get('setting.your-k
 
 
 ## via facedes
-Config::get('settings.YOU-KEY');
+`Config::get('settings.YOU-KEY');`
 
 
 #   Demo
