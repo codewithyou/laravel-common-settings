@@ -15,6 +15,15 @@ URL Format :`http://www.yoursite.com/generate/key/{mykey}/value/{myvalue}`
 Echo :`http://www.yoursite.com/generate/key/{mykey}`
 
 
+# APIS
+## add an key-value pair
+`$app->settings->set(key,value)`
+
+## get the value for the key 
+`$app->config('setting.YOUR-KEY')`
+
+## delete an key-value pair
+` $app->settings->get(key)
 
 #  TODO 
 * File driver implemention
