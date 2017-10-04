@@ -19,6 +19,10 @@ which is store is database . and can access by $app->config->get('setting.your-k
 ` $app->settings->get(key)`
 
 
+## via facedes
+Config::get('settings.YOU-KEY');
+
+
 #   Demo
 ## set up this project 
 * config .env file set dbname db user 
