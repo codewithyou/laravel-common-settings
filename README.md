@@ -3,11 +3,11 @@ A settings package which you can store  key=value pair in database and access vi
 
 
 
-#Description
+#  Description
 You can modify the url as flows ,fill key & value ,then generate a new key=value pair
 which is store is database . and can access by $app->config->get('setting.your-key)
 
-#Demo & Usage
+# Demo & Usage
 ##  generate an key=value pair 
 URL Format :`http://www.yoursite.com/generate/key/{mykey}/value/{myvalue}`
 
