@@ -13,13 +13,18 @@ which is store is database . and can access by $app->config->get('setting.your-k
 `$app->settings->set(key,value)`
 
 ## get the value for the key 
-`$app->config('setting.YOUR-KEY')`
+`$app->config('settings.YOUR-KEY')`
 
 ## delete an key-value pair
 ` $app->settings->get(key)`
 
 
 #   Demo & Usage
+## set up this project 
+* config .env file set dbname db user 
+* run php artisan migrate 
+* open broswer and visit yousite
+
 ##  generate an key=value pair 
 URL Format :`http://www.yoursite.com/generate/key/{mykey}/value/{myvalue}`
 
